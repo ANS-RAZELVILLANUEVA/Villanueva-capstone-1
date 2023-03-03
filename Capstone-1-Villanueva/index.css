@@ -1,0 +1,93 @@
+* {
+font-family: 'Merriweather', serif;
+}
+
+h1, h2 {
+	font-family: 'Merriweather', serif;
+}
+
+#landing {
+	margin-top: 12.5vh;
+	height: 87.5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(https://wallpapers.com/images/featured/0mkq5wymu4fii74l.jpg);
+}
+
+p {
+	text-align: left;
+}
+
+img {
+	height: 250px;
+	width: 300px;
+}
+
+#about {
+		padding: 5vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+
+
+#gallery { background-color: transparent;
+	padding: 10vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+.basta{
+ color: black ;
+ width: 75%;
+	margin: 20px;
+	padding: 25px;
+}
+
+.tools {
+	width: 75%;
+	margin: 20px;
+	padding: 25px;
+	color: white;
+}
+
+#contact {
+	padding: 10vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: #white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 480px) {
+  .tools > h2 {
+    font-size: 25px;
+  }
+}
+
